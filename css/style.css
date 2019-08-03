@@ -1,0 +1,94 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    background-color: black;
+
+}
+
+.container-cabecalho{
+    margin-top: 40px; 
+    display: flex;
+    justify-content: center;
+}
+
+#nomeHeroi{
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    border: solid 2px #ffff5e;
+    text-indent: 1ch;
+    font-size: 18px;
+    margin-top:  2px;
+    margin-right: 5px;
+    background-color: transparent;
+    color:white;
+    font-size: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 650px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 650px;
+    background: #fff;
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 481.25px;
+    overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+    width: 100%;
+}
+
+.swiper-slide .details{
+    height: 170px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    background-color: #666;
+}
+
+.swiper-img{
+    width: 100%;
+}
+
+h2, h3{
+    color: white;
+}
+
+h3{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.imgFundo{
+    height: 500px;
+    width: 900px;
+    margin: 0 auto;
+}
